@@ -102,7 +102,7 @@
 
     {% block content %}
     <div class="content text">
-      <div id="features" class="heading-text">Overview</div>
+      <div id="features" class="heading-text">{{section.title}}</div>
       {{ section.content | safe }}
     </div>
     {% endblock content %}
